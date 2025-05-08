@@ -1,0 +1,35 @@
+
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <rect width="800" height="600" fill="url(#bg_gradient)"/>
+  
+  <!-- Mountains -->
+  <path d="M0,250 L200,100 L400,300 L600,150 L800,280 L800,600 L0,600 Z" fill="#436173" opacity="0.8"/>
+  <path d="M0,350 L150,200 L300,320 L450,220 L600,350 L800,280 L800,600 L0,600 Z" fill="#2D4654" opacity="0.9"/>
+  
+  <!-- Lake -->
+  <path d="M0,500 Q200,480 400,500 Q600,480 800,510 L800,600 L0,600 Z" fill="#017798" opacity="0.6"/>
+  
+  <!-- Cherry Blossom Trees -->
+  <path d="M150,500 L160,420 L170,420 L180,500 Z" fill="#4A2C2A"/> <!-- Trunk 1 -->
+  <circle cx="165" cy="400" r="30" fill="#F8D0E7" opacity="0.9"/> <!-- Blossoms 1 -->
+  
+  <path d="M650,500 L660,430 L670,430 L680,500 Z" fill="#4A2C2A"/> <!-- Trunk 2 -->
+  <circle cx="665" cy="410" r="25" fill="#F8D0E7" opacity="0.9"/> <!-- Blossoms 2 -->
+  
+  <!-- Ripples in Water -->
+  <path d="M100,520 Q150,515 200,520 Q250,525 300,520" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.4"/>
+  <path d="M400,530 Q450,525 500,530 Q550,535 600,530" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.4"/>
+  
+  <!-- Birds -->
+  <path d="M250,150 Q260,145 270,150 Q280,145 290,150" stroke="#333333" stroke-width="1" fill="none"/>
+  <path d="M300,170 Q310,165 320,170 Q330,165 340,170" stroke="#333333" stroke-width="1" fill="none"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bg_gradient" x1="0" y1="0" x2="0" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F6D5F7"/>
+      <stop offset="1" stop-color="#C2E6F3"/>
+    </linearGradient>
+  </defs>
+</svg>

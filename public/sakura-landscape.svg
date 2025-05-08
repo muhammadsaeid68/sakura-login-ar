@@ -1,0 +1,52 @@
+
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Sky -->
+  <rect width="800" height="600" fill="url(#sky_gradient)"/>
+  
+  <!-- Mountains -->
+  <path d="M0,400 Q200,200 400,350 Q600,250 800,380 L800,600 L0,600 Z" fill="#617986" opacity="0.8"/>
+  <path d="M0,450 Q100,350 300,400 Q500,300 800,420 L800,600 L0,600 Z" fill="#3B5B6D" opacity="0.9"/>
+  
+  <!-- Cherry Blossom Tree -->
+  <path d="M500,600 L520,400 L530,400 L550,600 Z" fill="#4A2C2A"/> <!-- Trunk -->
+  
+  <!-- Cherry Blossom Clusters -->
+  <g opacity="0.9">
+    <circle cx="525" cy="380" r="40" fill="#F8D0E7"/>
+    <circle cx="480" cy="390" r="35" fill="#F8D0E7"/>
+    <circle cx="550" cy="360" r="30" fill="#F8D0E7"/>
+    <circle cx="570" cy="400" r="25" fill="#F8D0E7"/>
+    <circle cx="510" cy="340" r="25" fill="#F8D0E7"/>
+  </g>
+  
+  <!-- Water -->
+  <path d="M0,550 Q200,530 400,550 Q600,530 800,560 L800,600 L0,600 Z" fill="#017798" opacity="0.5"/>
+  
+  <!-- Subtle Ripples in Water -->
+  <path d="M50,570 Q100,565 150,570 Q200,575 250,570" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M300,580 Q350,575 400,580 Q450,585 500,580" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M550,560 Q600,555 650,560 Q700,565 750,560" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.3"/>
+
+  <!-- Falling Cherry Blossoms -->
+  <circle cx="300" cy="150" r="3" fill="#F8D0E7" opacity="0.7"/>
+  <circle cx="450" cy="250" r="2" fill="#F8D0E7" opacity="0.7"/>
+  <circle cx="600" cy="180" r="4" fill="#F8D0E7" opacity="0.7"/>
+  <circle cx="350" cy="320" r="3" fill="#F8D0E7" opacity="0.7"/>
+  <circle cx="200" cy="280" r="2" fill="#F8D0E7" opacity="0.7"/>
+  <circle cx="100" cy="350" r="1" fill="#F8D0E7" opacity="0.7"/>
+  <circle cx="500" cy="480" r="2" fill="#F8D0E7" opacity="0.7"/>
+  <circle cx="700" cy="420" r="3" fill="#F8D0E7" opacity="0.7"/>
+  <circle cx="150" cy="500" r="1" fill="#F8D0E7" opacity="0.7"/>
+  
+  <!-- Glowing Sun -->
+  <circle cx="180" cy="120" r="60" fill="#FFDB99" opacity="0.7"/>
+  <circle cx="180" cy="120" r="40" fill="#FFE8B8" opacity="0.5"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="sky_gradient" x1="0" y1="0" x2="0" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C2E6F3"/>
+      <stop offset="1" stop-color="#F8D0E7" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+</svg>
